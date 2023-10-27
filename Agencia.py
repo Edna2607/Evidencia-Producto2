@@ -32,8 +32,6 @@ class Agencia(Usuario):
         self._fecha1 = fecha1
         self._fecha2 = fecha2
 
-    def aprobar_pedido(self):
-        print(f"La Agencia {self._nombre} ha aprobado un viaje.")
 
     def registrar_viaje(self):
         self._pais = input(f"Ingrese el Pais de Destino: ")
